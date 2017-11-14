@@ -12,16 +12,16 @@ module.exports = {
       test: /.jsx?$/,
       loader: 'babel-loader',
       exclude: /node_modules/,
-      query: {presets: ['es2015', 'react']}
+      query: {presets: ['es2015', 'react', 'stage-0']}
     }, {
       test: /\.css$/, 
       loader: "style-loader!css-loader" 
-    }, { 
+    }, {
       test: /\.png$/, 
-      loader: "url-loader?limit=100000" 
-    }, { 
-      test: /\.jpg$/, 
-      loader: "file-loader" 
+      loader: "file-loader"
+    }, {
+      test: /\.jpe?g$/,
+      loader: "file-loader"
     }, {
       test: /\.svg(\?v=\d+\.\d+\.\d+)?$/,
       loader: 'url-loader?limit=10000&mimetype=image/svg+xml'
