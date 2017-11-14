@@ -24,7 +24,7 @@ export default () => (
           <h3>Pablo Fernandes</h3>
           <p>
             Pablo é o proprietário e tatuador chefe do Miart Studio. Arte sempre
-            foi seu forte: além de tatuador, é designer de jóias (ourives) de
+            foi seu forte: além de tatuador, é designer de jóias e ourives de
             profissão, e se diverte como escultor e pintor.
           </p>
           <p>
