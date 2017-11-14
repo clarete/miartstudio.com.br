@@ -36,10 +36,9 @@ export default () => (
 
     <Navbar.Collapse>
       <Nav>
+        <NavItem href="/#contato">Contato</NavItem>
         <NavItem href="/#trabalhos">Trabalhos</NavItem>
-        <NavItem href="/#artist">Artista</NavItem>
-        <NavItem href="#">Contato</NavItem>
-        <NavItem href="#">Endereço</NavItem>
+        <NavItem href="/#artista">Artista</NavItem>
       </Nav>
     </Navbar.Collapse>
   </Navbar>
