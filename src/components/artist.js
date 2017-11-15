@@ -9,7 +9,7 @@ export default () => (
       <Row>
         <Col md={12}>
           <h2 style={{ color: '#fff' }}>Artista</h2>
-          <a id="artist"></a>
+          <a id="artista"></a>
         </Col>
       </Row>
       <Row>
