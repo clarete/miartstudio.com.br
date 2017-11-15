@@ -40884,14 +40884,21 @@ var _reactBootstrap = __webpack_require__(35);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+var clickHandler = function clickHandler(id) {
+  var rect = document.getElementById(id).getBoundingClientRect();
+  var scrollTop = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop;
+  var bodyMargin = parseInt(window.getComputedStyle(document.body).marginTop.replace('px', ''));
+  var top = rect.top + scrollTop - bodyMargin;
+  document.scrollingElement.scroll({ top: top });
+};
+
 exports.default = function () {
   return _react2.default.createElement(
     _reactBootstrap.Navbar,
-    { inverse: true, collapseOnSelect: true, style: {
+    { inverse: true, collapseOnSelect: true, className: 'navbar-fixed-top', style: {
         background: '#000',
         padding: '10px 0 15px 0',
-        borderRadius: 0,
-        margin: 0
+        borderRadius: 0
       } },
     _react2.default.createElement(
       _reactBootstrap.Navbar.Header,
@@ -40925,17 +40932,23 @@ exports.default = function () {
         null,
         _react2.default.createElement(
           _reactBootstrap.NavItem,
-          { href: '/#contato' },
+          { href: '/#contato', onClick: function onClick(e) {
+              return clickHandler('contato');
+            } },
           'Contato'
         ),
         _react2.default.createElement(
           _reactBootstrap.NavItem,
-          { href: '/#trabalhos' },
+          { href: '/#trabalhos', onClick: function onClick(e) {
+              return clickHandler('trabalhos');
+            } },
           'Trabalhos'
         ),
         _react2.default.createElement(
           _reactBootstrap.NavItem,
-          { href: '/#artista' },
+          { href: '/#artista', onClick: function onClick(e) {
+              return clickHandler('artista');
+            } },
           'Artista'
         )
       )
@@ -41011,7 +41024,7 @@ exports.default = function () {
               } },
             _react2.default.createElement(
               'p',
-              { style: { marginBottom: -10 } },
+              null,
               'Rua Jos\xE9 Soares, 72b',
               _react2.default.createElement('br', null),
               'Floramar - Belo Horizonte, MG',
@@ -41277,7 +41290,7 @@ exports.default = function () {
           pics().map(function (o, i) {
             return _react2.default.createElement(
               'li',
-              { style: { float: 'left', paddingRight: 20, paddingBottom: 20 },
+              { style: { float: 'left', paddingRight: 10, paddingBottom: 20 },
                 key: i },
               _react2.default.createElement('img', { src: o.src })
             );
@@ -42145,7 +42158,7 @@ exports = module.exports = __webpack_require__(92)(undefined);
 
 
 // module
-exports.push([module.i, "body {\n    /* background: #000; */\n}\n", ""]);
+exports.push([module.i, "body {\n    /* background: #000; */\n    margin-top: 70px;\n}\n", ""]);
 
 // exports
 
