@@ -7,14 +7,23 @@ import {
   MenuItem,
 } from 'react-bootstrap';
 
-const clickHandler = (id) => document.getElementById(id).scrollIntoView();
+const clickHandler = (id) => {
+  const rect = document.getElementById(id).getBoundingClientRect();
+  const scrollTop = document.documentElement.scrollTop
+                  ? document.documentElement.scrollTop
+                  : document.body.scrollTop;
+  const bodyMargin = parseInt(window
+    .getComputedStyle(document.body)
+    .marginTop.replace('px', ''));
+  const top = rect.top + scrollTop - bodyMargin;
+  document.scrollingElement.scroll({ top })
+};
 
 export default () => (
-  <Navbar inverse collapseOnSelect style={{
+  <Navbar inverse collapseOnSelect className="navbar-fixed-top" style={{
     background: '#000',
     padding: '10px 0 15px 0',
     borderRadius: 0,
-    margin: 0,
   }}>
     <Navbar.Header>
       <Navbar.Brand>

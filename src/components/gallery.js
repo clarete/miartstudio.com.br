@@ -35,7 +35,7 @@ export default () => (
       <Col md={12}>
         <ul style={{ padding: 0, listStyle: 'none' }}>
           {pics().map((o, i) =>
-            <li style={{ float: 'left', paddingRight: 20, paddingBottom: 20, }}
+            <li style={{ float: 'left', paddingRight: 10, paddingBottom: 20, }}
                 key={i}><img src={o.src} /></li>)}
         </ul>
       </Col>

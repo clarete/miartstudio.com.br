@@ -26,7 +26,7 @@ export default () => (
             fontWeight: 'bold',
             fontSize: 30,
           }}>
-            <p style={{ marginBottom: -10 }}>
+            <p>
               Rua José Soares, 72b<br />
               Floramar - Belo Horizonte, MG<br />
             </p>
