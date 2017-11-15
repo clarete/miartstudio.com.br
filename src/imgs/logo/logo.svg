@@ -29,7 +29,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.64228866"
-     inkscape:cx="643.12213"
+     inkscape:cx="597.19263"
      inkscape:cy="212.13169"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -50,7 +50,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -69,9 +69,9 @@
          id="tspan4520"
          x="207.87871"
          y="257.93213"
-         style="stroke-width:0.26458332"></tspan></text>
+         style="stroke-width:0.26458332" /></text>
     <rect
-       style="opacity:0.99823531;fill:#edd400;fill-opacity:1;stroke:none;stroke-width:5.0616188;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.39922485"
+       style="opacity:0.99823531;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:5.0616188;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.39922485"
        id="rect4514"
        width="134.97801"
        height="143.4865"
@@ -96,7 +96,7 @@
        inkscape:export-ydpi="25.4" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:70.22364807px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#edd400;fill-opacity:1;stroke:none;stroke-width:1.75559127;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;font-size:70.22364807px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.75559127;stroke-opacity:1;"
        x="155.70274"
        y="231.40373"
        id="text4518"><tspan
@@ -104,17 +104,17 @@
          id="tspan4516"
          x="155.70274"
          y="231.40373"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'URW Chancery L';-inkscape-font-specification:'URW Chancery L';fill:#edd400;fill-opacity:1;stroke:none;stroke-width:1.75559127;stroke-opacity:1">Mi Art</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'URW Chancery L';-inkscape-font-specification:'URW Chancery L';fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.75559127;stroke-opacity:1;">Mi Art</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:29.54896545px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#edd400;fill-opacity:1;stroke:none;stroke-width:0.73872405;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;font-size:29.54896545px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.73872405;stroke-opacity:1;"
        x="161.05995"
        y="263.80655"
        id="text4526"><tspan
          sodipodi:role="line"
          x="161.05995"
          y="263.80655"
-         style="fill:#edd400;fill-opacity:1;stroke:none;stroke-width:0.73872405;stroke-opacity:1"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.73872405;stroke-opacity:1;"
          id="tspan4528">tatoo studio</tspan></text>
   </g>
 </svg>
