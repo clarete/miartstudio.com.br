@@ -8,8 +8,8 @@ export default () => (
     <Grid>
       <Row>
         <Col md={12}>
-          <h2 style={{ color: '#fff' }}>Artista</h2>
           <a id="artista"></a>
+          <h2 style={{ color: '#fff' }}>Artista</h2>
         </Col>
       </Row>
       <Row>
