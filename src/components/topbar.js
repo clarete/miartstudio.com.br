@@ -7,6 +7,8 @@ import {
   MenuItem,
 } from 'react-bootstrap';
 
+const clickHandler = (id) => document.getElementById(id).scrollIntoView();
+
 export default () => (
   <Navbar inverse collapseOnSelect style={{
     background: '#000',
@@ -33,9 +35,15 @@ export default () => (
 
     <Navbar.Collapse>
       <Nav>
-        <NavItem href="/#contato">Contato</NavItem>
-        <NavItem href="/#trabalhos">Trabalhos</NavItem>
-        <NavItem href="/#artista">Artista</NavItem>
+        <NavItem href="/#contato" onClick={(e) => clickHandler('contato') }>
+          Contato
+        </NavItem>
+        <NavItem href="/#trabalhos" onClick={(e) => clickHandler('trabalhos') }>
+          Trabalhos
+        </NavItem>
+        <NavItem href="/#artista" onClick={(e) => clickHandler('artista') }>
+          Artista
+        </NavItem>
       </Nav>
     </Navbar.Collapse>
   </Navbar>
