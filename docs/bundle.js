@@ -40889,19 +40889,13 @@ exports.default = function () {
     _reactBootstrap.Navbar,
     { inverse: true, collapseOnSelect: true, style: {
         background: '#000',
-        paddingTop: 20,
+        padding: '10px 0 15px 0',
         borderRadius: 0,
-        border: 0,
         margin: 0
       } },
     _react2.default.createElement(
       _reactBootstrap.Navbar.Header,
-      { style: {
-          width: 165,
-          height: 80,
-          border: 0,
-          overflow: 'hidden'
-        } },
+      null,
       _react2.default.createElement(
         _reactBootstrap.Navbar.Brand,
         null,
@@ -40910,15 +40904,18 @@ exports.default = function () {
           { href: '/', style: {
               backgroundImage: 'url(' + __webpack_require__(303) + ')',
               backgroundRepeat: 'no-repeat',
-              backgroundSize: '100% auto',
-              width: '80%',
-              margin: 0,
-              paddingTop: 200,
-              display: 'block'
+              backgroundSize: 'auto 100%',
+              backgroundPosition: '30% 0',
+              overflow: 'hidden'
             } },
-          'Miart Tattoo Studio'
+          _react2.default.createElement(
+            'div',
+            { style: { paddingTop: 200 } },
+            'Miart Tattoo Studio'
+          )
         )
-      )
+      ),
+      _react2.default.createElement(_reactBootstrap.Navbar.Toggle, null)
     ),
     _react2.default.createElement(
       _reactBootstrap.Navbar.Collapse,
@@ -40950,7 +40947,7 @@ exports.default = function () {
 /* 303 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "390797001fc5a67c1a251377ecf42299.png";
+module.exports = __webpack_require__.p + "afd03104586dca77cbd90e306195b77d.png";
 
 /***/ }),
 /* 304 */
@@ -41000,55 +40997,62 @@ exports.default = function () {
       _react2.default.createElement(
         _reactBootstrap.Row,
         null,
-        _react2.default.createElement('a', { id: 'contato' }),
         _react2.default.createElement(
-          'div',
-          { style: { float: 'right', padding: '20px 0' } },
-          _react2.default.createElement('img', { height: '300', src: __webpack_require__(325), alt: 'Map' })
+          _reactBootstrap.Col,
+          { md: 7 },
+          _react2.default.createElement('a', { id: 'contato' }),
+          _react2.default.createElement(
+            'div',
+            { style: {
+                padding: '30px 0 40px 0',
+                color: '#ffffff',
+                fontWeight: 'bold',
+                fontSize: 30
+              } },
+            _react2.default.createElement(
+              'p',
+              { style: { marginBottom: -10 } },
+              'Rua Jos\xE9 Soares, 72b',
+              _react2.default.createElement('br', null),
+              'Floramar - Belo Horizonte, MG',
+              _react2.default.createElement('br', null)
+            ),
+            _react2.default.createElement(
+              'em',
+              { style: { fontSize: 18, color: '#777' } },
+              'em frente ao Chico do Peixe'
+            ),
+            _react2.default.createElement(
+              'ul',
+              { style: { listStyle: 'none', margin: 0, padding: '35px 0 0 0', fontSize: 16 } },
+              _react2.default.createElement(
+                'li',
+                { style: { paddingBottom: 10 } },
+                link("https://instagram.com/pablofernandes85", icon('Instagram'), 'Instagram'),
+                link("https://instagram.com/pablofernandes85", "@pablofernandes85", 'Instagram')
+              ),
+              _react2.default.createElement(
+                'li',
+                { style: { paddingBottom: 10 } },
+                link("https://facebook.com/profile.php?id=100008434512976", icon('Facebook'), 'Facebook'),
+                link("https://facebook.com/profile.php?id=100008434512976", "Perfil no Facebook", 'Facebook')
+              ),
+              _react2.default.createElement(
+                'li',
+                null,
+                icon('WhatsApp'),
+                '(31) 8778-7627 / (31) 8613-4333'
+              )
+            )
+          )
         ),
         _react2.default.createElement(
-          'div',
-          { style: {
-              padding: '30px 0 40px 0',
-              color: '#ffffff',
-              fontWeight: 'bold',
-              fontSize: 32,
-              marginRight: 30
-            } },
+          _reactBootstrap.Col,
+          { md: 5 },
           _react2.default.createElement(
-            'p',
-            { style: { marginBottom: -10 } },
-            'Rua Jos\xE9 Soares, 72b',
-            _react2.default.createElement('br', null),
-            'Floramar - Belo Horizonte, MG',
-            _react2.default.createElement('br', null)
-          ),
-          _react2.default.createElement(
-            'em',
-            { style: { fontSize: 20, color: '#777' } },
-            'em frente ao Chico do Peixe'
-          ),
-          _react2.default.createElement(
-            'ul',
-            { style: { listStyle: 'none', margin: 0, padding: '35px 0 0 0', fontSize: 16 } },
-            _react2.default.createElement(
-              'li',
-              { style: { paddingBottom: 10 } },
-              link("https://instagram.com/pablofernandes85", icon('Instagram'), 'Instagram'),
-              link("https://instagram.com/pablofernandes85", "@pablofernandes85", 'Instagram')
-            ),
-            _react2.default.createElement(
-              'li',
-              { style: { paddingBottom: 10 } },
-              link("https://facebook.com/pablofernandes85", icon('Facebook'), 'Facebook'),
-              link("https://facebook.com/pablofernandes85", "facebook.com/pablofernandes85", 'Facebook')
-            ),
-            _react2.default.createElement(
-              'li',
-              null,
-              icon('WhatsApp'),
-              '(31) 8778-7627 / (31) 8613-4333'
-            )
+            'div',
+            { style: { padding: '20px 0' } },
+            _react2.default.createElement('img', { width: '100%', src: __webpack_require__(325), alt: 'Map' })
           )
         )
       )
@@ -41251,26 +41255,34 @@ exports.default = function () {
       _reactBootstrap.Row,
       null,
       _react2.default.createElement(
-        'h1',
-        null,
-        'Trabalhos'
-      ),
-      _react2.default.createElement('a', { id: 'trabalhos' })
+        _reactBootstrap.Col,
+        { md: 12 },
+        _react2.default.createElement('a', { id: 'trabalhos' }),
+        _react2.default.createElement(
+          'h1',
+          null,
+          'Trabalhos'
+        )
+      )
     ),
     _react2.default.createElement(
       _reactBootstrap.Row,
       null,
       _react2.default.createElement(
-        'ul',
-        { style: { padding: 0, listStyle: 'none' } },
-        pics().map(function (o, i) {
-          return _react2.default.createElement(
-            'li',
-            { style: { float: 'left', paddingRight: 20, paddingBottom: 20 },
-              key: i },
-            _react2.default.createElement('img', { src: o.src })
-          );
-        })
+        _reactBootstrap.Col,
+        { md: 12 },
+        _react2.default.createElement(
+          'ul',
+          { style: { padding: 0, listStyle: 'none' } },
+          pics().map(function (o, i) {
+            return _react2.default.createElement(
+              'li',
+              { style: { float: 'left', paddingRight: 20, paddingBottom: 20 },
+                key: i },
+              _react2.default.createElement('img', { src: o.src })
+            );
+          })
+        )
       )
     )
   );
@@ -42032,39 +42044,54 @@ exports.default = function () {
         _reactBootstrap.Row,
         null,
         _react2.default.createElement(
-          'h2',
-          { style: { color: '#fff' } },
-          'Artista'
-        ),
-        _react2.default.createElement('a', { id: 'artist' }),
-        _react2.default.createElement('img', {
-          src: __webpack_require__(429),
-          alt: 'Pablo Fernandes',
-          style: { float: 'left', width: 200 } }),
+          _reactBootstrap.Col,
+          { md: 12 },
+          _react2.default.createElement('a', { id: 'artista' }),
+          _react2.default.createElement(
+            'h2',
+            { style: { color: '#fff' } },
+            'Artista'
+          )
+        )
+      ),
+      _react2.default.createElement(
+        _reactBootstrap.Row,
+        null,
         _react2.default.createElement(
-          'div',
-          { style: {
-              marginLeft: 220,
-              padding: '1px 20px 20px 20px',
-              height: 200,
-              background: '#222',
-              color: '#ffffff',
-              fontSize: 16
-            } },
+          _reactBootstrap.Col,
+          { md: 3 },
+          _react2.default.createElement('img', {
+            src: __webpack_require__(429),
+            alt: 'Pablo Fernandes',
+            style: { width: '100%' } })
+        ),
+        _react2.default.createElement(
+          _reactBootstrap.Col,
+          { md: 9 },
           _react2.default.createElement(
-            'h3',
-            null,
-            'Pablo Fernandes'
-          ),
-          _react2.default.createElement(
-            'p',
-            null,
-            'Pablo \xE9 o propriet\xE1rio e tatuador chefe do Miart Studio. Arte sempre foi seu forte: al\xE9m de tatuador, \xE9 designer de j\xF3ias e ourives de profiss\xE3o, e se diverte como escultor e pintor.'
-          ),
-          _react2.default.createElement(
-            'p',
-            null,
-            'O cuidado com o cliente e busca por novos conhecimentos e t\xE9cnicas s\xE3o outra marca de Pablo. Ele n\xE3o descansa at\xE9 encontrar o design perfeito para o projeto de tatuagem de seus clientes.'
+            'div',
+            { style: {
+                marginBottom: 40,
+                padding: '1px 20px 20px 20px',
+                background: '#222',
+                color: '#ffffff',
+                fontSize: 16
+              } },
+            _react2.default.createElement(
+              'h3',
+              null,
+              'Pablo Fernandes'
+            ),
+            _react2.default.createElement(
+              'p',
+              null,
+              'Sou propriet\xE1rio e tatuador chefe do Miart Studio. Arte sempre foi o meu forte. Al\xE9m de tatuador, sou designer de j\xF3ias e ourives de profiss\xE3o, e tamb\xE9m me aventuro nos caminhos das esculturas e pinturas.'
+            ),
+            _react2.default.createElement(
+              'p',
+              null,
+              'O cuidado com o cliente e busca por novos conhecimentos e t\xE9cnicas me instigam e n\xE3o descanso at\xE9 encontrar o design perfeito para o projeto de tatuagem dos meus clientes.'
+            )
           )
         )
       )
