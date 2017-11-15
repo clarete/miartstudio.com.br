@@ -28,6 +28,7 @@ export default () => (
           </div>
         </a>
       </Navbar.Brand>
+      <Navbar.Toggle />
     </Navbar.Header>
 
     <Navbar.Collapse>
