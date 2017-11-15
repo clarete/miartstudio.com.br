@@ -43,8 +43,8 @@ export default () => (
               {link("https://instagram.com/pablofernandes85", "@pablofernandes85", 'Instagram')}
             </li>
             <li style={{ paddingBottom: 10, }}>
-              {link("https://facebook.com/pablofernandes85", icon('Facebook'), 'Facebook')}
-              {link("https://facebook.com/pablofernandes85", "facebook.com/pablofernandes85", 'Facebook')}
+              {link("https://facebook.com/profile.php?id=100008434512976", icon('Facebook'), 'Facebook')}
+              {link("https://facebook.com/profile.php?id=100008434512976", "Perfil no Facebook", 'Facebook')}
             </li>
             <li>
               {icon('WhatsApp')}
