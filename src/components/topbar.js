@@ -10,27 +10,23 @@ import {
 export default () => (
   <Navbar inverse collapseOnSelect style={{
     background: '#000',
-    paddingTop: 20,
+    padding: '10px 0 15px 0',
     borderRadius: 0,
-    border: 0,
     margin: 0,
   }}>
-    <Navbar.Header style={{
-      width: 165,
-      height: 80,
-      border: 0,
-      overflow: 'hidden',
-    }}>
+    <Navbar.Header>
       <Navbar.Brand>
         <a href="/" style={{
           backgroundImage: `url(${require('../imgs/logo/logo.png')})`,
           backgroundRepeat: 'no-repeat',
-          backgroundSize: '100% auto',
-          width: '80%',
-          margin: 0,
-          paddingTop: 200,
-          display: 'block',
-        }}>Miart Tattoo Studio</a>
+          backgroundSize: 'auto 100%',
+          backgroundPosition: '30% 0',
+          overflow: 'hidden',
+        }}>
+          <div style={{ paddingTop: 200 }}>
+            Miart Tattoo Studio
+          </div>
+        </a>
       </Navbar.Brand>
     </Navbar.Header>
 

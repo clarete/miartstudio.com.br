@@ -26,15 +26,19 @@ const pics = () => [
 export default () => (
   <Grid>
     <Row>
-      <h1>Trabalhos</h1>
-      <a id="trabalhos"></a>
+      <Col md={12}>
+        <h1>Trabalhos</h1>
+        <a id="trabalhos"></a>
+      </Col>
     </Row>
     <Row>
-      <ul style={{ padding: 0, listStyle: 'none' }}>
-        {pics().map((o, i) =>
-          <li style={{ float: 'left', paddingRight: 20, paddingBottom: 20, }}
-              key={i}><img src={o.src} /></li>)}
-      </ul>
+      <Col md={12}>
+        <ul style={{ padding: 0, listStyle: 'none' }}>
+          {pics().map((o, i) =>
+            <li style={{ float: 'left', paddingRight: 20, paddingBottom: 20, }}
+                key={i}><img src={o.src} /></li>)}
+        </ul>
+      </Col>
     </Row>
   </Grid>
 );
