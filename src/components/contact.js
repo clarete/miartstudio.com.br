@@ -21,19 +21,19 @@ export default () => (
         <Col md={7}>
           <a id="contato"></a>
           <div style={{
-            padding: '30px 0 40px 0',
+            padding: '30px 0',
             color: '#ffffff',
             fontWeight: 'bold',
             fontSize: 30,
           }}>
-            <p>
+            <p style={{ marginBottom: -10 }}>
               Rua José Soares, 72b<br />
-              Floramar - Belo Horizonte, MG<br />
+              Floramar - Belo Horizonte, MG
             </p>
 
             <em style={{ fontSize: 18, color: '#777' }}>em frente ao Chico do Peixe</em>
 
-            <ul style={{ listStyle: 'none', margin: 0, padding: '35px 0 0 0', fontSize: 16 }}>
+            <ul style={{ listStyle: 'none', margin: 0, padding: '20px 0 0 0', fontSize: 16 }}>
               <li style={{ paddingBottom: 10 }}>
                 {link("https://instagram.com/pablofernandes85", icon('Instagram'), 'Instagram')}
                 {link("https://instagram.com/pablofernandes85", "@pablofernandes85", 'Instagram')}
@@ -50,7 +50,7 @@ export default () => (
           </div>
         </Col>
         <Col md={5}>
-          <div style={{ padding: '20px 0', }}>
+          <div style={{ padding: '35px 0', }}>
             <img width="100%" src={require('../imgs/map.jpg')} alt="Map" />
           </div>
         </Col>
