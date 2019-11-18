@@ -42311,14 +42311,11 @@ exports.default = function () {
             _react2.default.createElement(
               'p',
               { style: { marginBottom: -10 } },
-              'Rua Jos\xE9 Soares, 72b',
+              'R. Jos\xE9 Moura da Silva, n.104',
               _react2.default.createElement('br', null),
-              'Floramar - Belo Horizonte, MG'
-            ),
-            _react2.default.createElement(
-              'em',
-              { style: { fontSize: 18, color: '#777' } },
-              'em frente ao Chico do Peixe'
+              'Jardim Guanabara',
+              _react2.default.createElement('br', null),
+              'Belo Horizonte - MG'
             ),
             _react2.default.createElement(
               'ul',
@@ -48436,7 +48433,7 @@ exports = module.exports = __webpack_require__(99)(undefined);
 
 
 // module
-exports.push([module.i, "body {\n    background: #000;\n    margin-top: 70px;\n}\n\n.section-title {\n    margin: '40px 0 15px 0';\n    font-family: 'Montserrat', sans-serif;\n    font-weight: 700;\n}\n", ""]);
+exports.push([module.i, "body {\n    background: #000;\n    margin-top: 70px;\n}\n", ""]);
 
 // exports
 
