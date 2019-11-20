@@ -16,7 +16,7 @@ const clickHandler = (id) => {
     .getComputedStyle(document.body)
     .marginTop.replace('px', ''));
   const top = rect.top + scrollTop - bodyMargin;
-  document.scrollingElement.scroll({ top })
+  document.scrollingElement.scroll({ top });
 };
 
 export default () => (
